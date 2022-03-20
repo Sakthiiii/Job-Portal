@@ -4,19 +4,19 @@ import axios from "axios"
 class Logo extends React.Component
 {
     render(){
-        const lstyle = {
-            position: "block",
-            color:"red",
-            fontFamily: "Avenir Next",
-            fontWeight: "600",
-            fontSize: "50px",
-            textTransform: "uppercase",
-            fontStyle: "italic",
-            letterSpacing: "0.05em",
-            display: "inline",
-            paddingTop:"10px"
-            }
-            return (<p style = {lstyle}>Fresh Start</p>)
+        // const lstyle = {
+        //     position: "block",
+        //     color:"red",
+        //     fontFamily: "Avenir Next",
+        //     fontWeight: "600",
+        //     fontSize: "50px",
+        //     textTransform: "uppercase",
+        //     fontStyle: "italic",
+        //     letterSpacing: "0.05em",
+        //     display: "inline",
+        //     paddingTop:"10px"
+        //     }
+            return (<p ></p>)
         }   
             
 }
@@ -59,11 +59,11 @@ class Signcompany extends React.Component
             fontSize:"30px",
             position:"inline",
             textAlign:"center",
-            width : "1500px",
-            height:"1500px",
-            marginLeft:"5%",
-            paddingLeft:"30%",
-            paddingRight:"30%",
+            width : "1000px",
+            height:"1200px",
+            marginLeft:"15%",
+            paddingLeft:"%",
+            paddingRight:"%",
             background:"#abdbe3",
             borderStyle:"solid",
             borderWidth:"2px ",
@@ -81,9 +81,9 @@ class Signcompany extends React.Component
             <br/><br/>
             Set password<br/><input name = "pass" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px"}}/>
             <br/><br/>
-            Required Skills<br/><textarea name = "skills" onChange = {this.handleChange} type = "text"  style = {{height:"150px",fontSize:"30px",width:"550px"}}/>
+            Required Skills<br/><textarea name = "skills" onChange = {this.handleChange} type = "text"  style = {{height:"100px",fontSize:"30px",width:"400px"}}/>
             <br/><br/>
-            Free Positions<br/><textarea name = "pos" onChange = {this.handleChange} type = "text"  style = {{height:"150px",fontSize:"30px",width:"550px"}}/>
+            Free Positions<br/><textarea name = "pos" onChange = {this.handleChange} type = "text"  style = {{height:"100px",fontSize:"30px",width:"400px"}}/>
             <br/><br/>
             
             <button style = {{height:'50px',width:"300px",fontSize:"25px"}} onClick = {this.handleClick}>CREATE ACCOUNT </button>

@@ -1,19 +1,21 @@
 import express from "express"
 import cors from "cors"
 import mongoose from "mongoose"
-import { Db } from "mongodb"
-import { MongoClient } from "mongodb";
 
+import { MongoClient } from "mongodb";
+import dotenv from"dotenv";
+
+dotenv.config();
 const app = express()
 app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors())
-var db=mongoose.connection;
-mongoose.connect("mongodb://localhost:27017/myLogin", {
+mongoose.Promise = global.Promise;
+mongoose.connect(process.env.MONGODB_URL, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }, () => {
-    console.log("DB connected")
+    console.log("MongoDB connected")
 })
 
 const userSchema = new mongoose.Schema({

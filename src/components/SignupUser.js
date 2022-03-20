@@ -38,11 +38,11 @@ class Signuser extends React.Component
         fontSize:"30px",
         position:"inline",
         textAlign:"center",
-        width : "1500px",
-        height:"1500px",
-        marginLeft:"5%",
-        paddingLeft:"30%",
-        paddingRight:"30%",
+        width : "1000px",
+        height:"1400px",
+        marginLeft:"14%",
+        paddingLeft:"0%",
+        paddingRight:"0%",
         background:"#abdbe3",
         borderStyle:"solid",
         borderWidth:"2px ",
@@ -54,20 +54,24 @@ class Signuser extends React.Component
             <div>
             <form style = {fstyle}>
             <p style = {{fontSize:"50px",color:"#1e81b0"}}><b>Sign Up As User</b></p><br/><br/>   
-            Name<br/><input name = "name" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px"}}/>
+            Name<br/><input name = "name" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"20px",fontSize:"30px"}}/>
             <br/><br/>
-            eMail ID<br/><input name = "email" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px"}}/>
+            eMail ID<br/>
+            <input name = "email" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"20px",fontSize:"30px"}}/>
             <br/><br/>
-            DOB<br/><input name = "dob" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px"}}/>
+            DOB<br/>
+            <input name = "dob" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"20px",fontSize:"30px"}}/>
             <br/><br/>
-            Set password<br/><input name = "pass" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px"}}/>
-            <br/><br/>
-            Skills<br/><textarea name = "skills" onChange = {this.handleChange} type = "text" style = {{height:"150px",fontSize:"30px",width:"550px"}}/>
-            <br/><br/>
-            Experience<br/><textarea name = "exp" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"150px",fontSize:"30px",width:"550px"}}/>
+            Set password<br/>
+            <input name = "pass" onChange = {this.handleChange}  type = "text" size = "20" style = {{height:"20px",fontSize:"30px"}}/>
+            <br/><br/> Skills<br/>
+           
+            <textarea name = "skills" onChange = {this.handleChange} type = "text" style = {{height:"100px",fontSize:"30px",width:"400px"}}/>
+            <br/><br/>Experience<br/>
+            <textarea name = "exp" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"100px",fontSize:"30px",width:"400px"}}/>
             <br/><br/>
             
-            <button style = {{height:'50px',width:"300px",fontSize:"25px"}} onClick = {this.handleClick}>CREATE ACCOUNT </button>
+            <button style = {{height:'50px',width:"300px",fontSize:"25px",marginLeft:'00px',background:'lightgray'}} onClick = {this.handleClick}>CREATE ACCOUNT </button>
             </form>
             </div>)
     }

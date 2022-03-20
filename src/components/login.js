@@ -2,18 +2,18 @@ import React from 'react'
 class Logo extends React.Component
 {
     render(){
-        const lstyle = {
-            position: "absolute",
-            color:"red",
-            fontFamily: "Avenir Next",
-            fontWeight: "600",
-            fontSize: "25px",
-            textTransform: "uppercase",
-            fontStyle: "italic",
-            letterSpacing: "0.05em",
-            display: "inline"
-            }
-            return (<p style = {lstyle}>Fresh Start</p>)
+        // const lstyle = {
+        //     position: "absolute",
+        //     color:"red",
+        //     fontFamily: "Avenir Next",
+        //     fontWeight: "600",
+        //     fontSize: "25px",
+        //     textTransform: "uppercase",
+        //     fontStyle: "italic",
+        //     letterSpacing: "0.05em",
+        //     display: "inline"
+        //     }
+            return (<p ></p>)
         }   
             
 }

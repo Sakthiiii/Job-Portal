@@ -3,8 +3,8 @@ const CoursesandExams = () => {
     return(
     <div class="row">
         <div class="col s12"></div>
-        <div style = {{fontSize:"25px"}}class="col s4">
-        <h3>Computer IT Courses</h3>
+        <div style = {{fontSize:"20px" }}class="col s4">
+        <h4>Computer IT Courses</h4>
                         <a href="https://www.freshersworld.com/big-data-hadoop-training-institutes/4343020020" target="_blank">Big Data Hadoop</a><br/><br/>
                         <a href="https://www.freshersworld.com/networking-ccna-training-institutes/4343020023" target="_blank">Networking and CNN</a><br/><br/>
                         <a href="https://www.freshersworld.com/c-c++-training-institutes/4343020021" target="_blank">C C++</a><br/><br/>
@@ -15,16 +15,15 @@ const CoursesandExams = () => {
                         <a href="https://www.freshersworld.com/java-j2ee-training-institutes/4343020031" target="_blank">Java/J2EE</a><br/><br/>
                     
         </div>
-        <div style = {{fontSize:"25px"}} class="col s4"><h3>Study Aboard</h3>
+        <div style = {{fontSize:"20px",marginRight:'0px'}} class="col s3"><h4>Study Aboard</h4>
                         <a href="https://studyabroad.shiksha.com/mba-in-abroad-dc11508" target="_blank">MBA</a><br/><br/>
                         <a href="https://studyabroad.shiksha.com/ms-in-abroad-dc11509" target="_blank">MS</a><br/><br/>
                         <a href="https://studyabroad.shiksha.com/sop-statement-of-purpose-applycontent1701" target="_blank">SOP</a><br/><br/>
                         <a href="https://studyabroad.shiksha.com/exams/gmat" target="_blank">GMAT</a><br/><br/>
                         <a href="https://www.shiksha.com/mba/cat-exam" target="_blank">IELTS</a><br/><br/><br/><br/><br/><br/>
-                        <h3>Interview Advice</h3>
-                        <a href="https://www.naukri.com/blog/tag/interview-advice/" target="_blank">Advice</a><br/><br/>
+                        
             </div>
-        <div style = {{fontSize:"25px"}} class="col s4"><h3>Top Exams</h3>
+        <div style = {{fontSize:"20px",marginRight:'0px'}} class="col s2"><h4>Top Exams</h4>
                         <a href="https://www.shiksha.com/b-tech/jee-main-exam" target="_blank">JEE Mains</a><br/><br/>
                         <a href="https://www.shiksha.com/b-tech/jee-advanced-exam" target="_blank">JEE Advanced</a><br/><br/>
                         <a href="https://www.shiksha.com/science/bcece-exam" target="_blank">BCECE</a><br/><br/>
@@ -38,7 +37,11 @@ const CoursesandExams = () => {
                         <a href="https://www.ets.org/gre" target="_blank">GRE</a><br/><br/>
                         <a href="https://www.ets.org/toefl/test-takers/ibt/about" target="_blank">TOEFL</a><br/><br/>
                         <a href="https://www.careerindia.com/upsc/ies-exam-e26.html" target="_blank">IES</a><br/><br/></div>
+
+                    <div style = {{fontSize:"20px"}} class="col s3">
+                        <h4>Interview Advice</h4>
+                        <a href="https://www.naukri.com/blog/tag/interview-advice/" target="_blank">Advice</a><br/><br/></div>
         </div>
     )
 }
-export default CoursesandExams
+export default CoursesandExams ;
