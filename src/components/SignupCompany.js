@@ -75,15 +75,15 @@ class Signcompany extends React.Component
             <div>
             <form style = {fstyle}>
             <p style = {{fontSize:"50px",color:"#1e81b0"}}><b>Sign Up As Company</b></p><br/><br/>   
-            Company Name<br/><input name = "name" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px"}}/>
+            Company Name<br/><input name = "name" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px",textAlign:'center'}}/>
             <br/><br/>
-            Contact No<br/><input name = "contact" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px"}}/>
+            Contact No<br/><input name = "contact" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px",textAlign:'center'}}/>
             <br/><br/>
-            Set password<br/><input name = "pass" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px"}}/>
+            Set password<br/><input name = "pass" onChange = {this.handleChange} type = "text" size = "40" style = {{height:"50px",fontSize:"30px",textAlign:'center'}}/>
             <br/><br/>
-            Required Skills<br/><textarea name = "skills" onChange = {this.handleChange} type = "text"  style = {{height:"100px",fontSize:"30px",width:"400px"}}/>
+            Required Skills<br/><textarea name = "skills" onChange = {this.handleChange} type = "text"  style = {{height:"100px",fontSize:"30px",width:"400px",textAlign:'center'}}/>
             <br/><br/>
-            Free Positions<br/><textarea name = "pos" onChange = {this.handleChange} type = "text"  style = {{height:"100px",fontSize:"30px",width:"400px"}}/>
+            Free Positions<br/><textarea name = "pos" onChange = {this.handleChange} type = "text"  style = {{height:"100px",fontSize:"30px",width:"400px",textAlign:'center'}}/>
             <br/><br/>
             
             <button style = {{height:'50px',width:"300px",fontSize:"25px"}} onClick = {this.handleClick}>CREATE ACCOUNT </button>

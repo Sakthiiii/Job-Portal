@@ -1,4 +1,4 @@
-{
+{"engines": {"node": "14.17.6","npm":"8.5.2"},
   "name": "backend",
   "version": "1.0.0",
   "description": "",

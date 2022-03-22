@@ -38,9 +38,9 @@ class Signuser extends React.Component
         fontSize:"30px",
         position:"inline",
         textAlign:"center",
-        width : "1000px",
-        height:"1400px",
-        marginLeft:"14%",
+        width : "800px",
+        height:"1300px",
+        marginLeft:"20%",
         paddingLeft:"0%",
         paddingRight:"0%",
         background:"#abdbe3",
@@ -54,16 +54,16 @@ class Signuser extends React.Component
             <div>
             <form style = {fstyle}>
             <p style = {{fontSize:"50px",color:"#1e81b0"}}><b>Sign Up As User</b></p><br/><br/>   
-            Name<br/><input name = "name" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"20px",fontSize:"30px"}}/>
+            Name<br/><input name = "name" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"50px",fontSize:"30px",textAlign:'center'}}/>
             <br/><br/>
             eMail ID<br/>
-            <input name = "email" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"20px",fontSize:"30px"}}/>
+            <input name = "email" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"50px",fontSize:"30px",textAlign:'center'}}/>
             <br/><br/>
             DOB<br/>
-            <input name = "dob" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"20px",fontSize:"30px"}}/>
+            <input name = "dob" onChange = {this.handleChange} type = "text" size = "20" style = {{height:"50px",fontSize:"30px",textAlign:'center'}}/>
             <br/><br/>
             Set password<br/>
-            <input name = "pass" onChange = {this.handleChange}  type = "text" size = "20" style = {{height:"20px",fontSize:"30px"}}/>
+            <input name = "pass" onChange = {this.handleChange}  type = "text" size = "20" style = {{height:"50px",fontSize:"30px",textAlign:'center'}}/>
             <br/><br/> Skills<br/>
            
             <textarea name = "skills" onChange = {this.handleChange} type = "text" style = {{height:"100px",fontSize:"30px",width:"400px"}}/>

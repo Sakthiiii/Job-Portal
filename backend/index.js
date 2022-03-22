@@ -5,6 +5,7 @@ import mongoose from "mongoose"
 import { MongoClient } from "mongodb";
 import dotenv from"dotenv";
 
+var port = process.env.PORT || 9000
 dotenv.config();
 const app = express()
 app.use(express.json())
@@ -91,37 +92,9 @@ app.post("/SignupUser", (req, res)=> {
                 
 })
 
-    //const { email, password} = req.body
-    //User.findOne({ email: email}, (err, user) => {
-    
-    // user.save(err => {
-    //         if(err) {
-    //             res.send("Problem")
-    //         } else {
-    //             res.send(user.name)
-    //         }
-    //     })
-    
-
-    
-    
-
-
-
-
-  
-
-
-
 
 app.post("/SignupCompany", (req, res)=> {
-    
-    
 
-
-    //const { email, password} = req.body
-    //User.findOne({ email: email}, (err, user) => {
-    //this.state = {"name":"","contact":"","pass":"","skills":"","pos":""}    
     const name = req.body.form.name.toString();
     const contact = req.body.form.contact.toString();
     const pass = req.body.form.pass.toString();
@@ -185,5 +158,5 @@ app.post("/SignupCompany", (req, res)=> {
 
 }) 
 
-app.listen(9000,() => {
+app.listen(port,() => {
     console.log("BE started at port 9000")})
